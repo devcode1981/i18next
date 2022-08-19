@@ -1,0 +1,97 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - karma > log4js > hipchat-notifier > request > hawk > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > hipchat-notifier > request > hawk > boom > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > hipchat-notifier > request > hawk > sntp > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > hipchat-notifier > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > boom > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > sntp > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-08-19T00:38:39.846Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - karma > log4js > mailgun-js > proxy-agent > https-proxy-agent:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2022-08-19T00:38:39.846Z'
+  SNYK-JS-LODASH-567746:
+    - '@babel/register > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+    - eslint > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - lint-staged > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - eslint > table > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > combine-lists > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - lint-staged > yup > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > hipchat-notifier > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > mailgun-js > async > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > slack-node > requestretry > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-08-19T00:38:39.846Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-08-19T00:38:39.846Z'
+  'npm:minimatch:20160620':
+    - istanbul > fileset > minimatch:
+        patched: '2022-08-19T00:38:39.846Z'
+    - istanbul > fileset > glob > minimatch:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma-coverage > minimatch:
+        patched: '2022-08-19T00:38:39.846Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > hipchat-notifier > request > tunnel-agent:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2022-08-19T00:38:39.846Z'
+    - karma > log4js > slack-node > requestretry > request > tunnel-agent:
+        patched: '2022-08-19T00:38:39.846Z'
+  'npm:uglify-js:20151024':
+    - istanbul > handlebars > uglify-js:
+        patched: '2022-08-19T00:38:39.846Z'
